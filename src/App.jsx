@@ -1,12 +1,15 @@
 import { useState } from 'react'
 import './App.css'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 function App() {
 
   return (
-    <>
-    <h1 className='bg-black text-white'>Project Setup</h1>
-    </>
+    <body>
+    <Navbar />
+    <Hero />
+    </body>
   )
 }
 
