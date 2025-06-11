@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full h-[12vh] text-white flex justify-between items-center pb-[0.5rem] px-4 md:px-[5rem]">
+    <nav className="w-full h-[12vh] text-white flex justify-between items-center pb-[0.5rem] px-[2rem] md:px-[5rem]">
       {/* Hamburger Menu - Mobile Only */}
       <button
         className="lg:hidden text-2xl"
@@ -27,10 +27,9 @@ const Navbar = () => {
 
       {/* Logo */}
       <div
-        className="text-2xl font-bold"
+        className="text-[1.875rem]"
         style={{
           fontFamily: "K2D",
-          fontSize: "1.875rem",
           fontWeight: "700",
           lineHeight: "normal",
           letterSpacing: "0.05625rem",
@@ -69,13 +68,12 @@ const Navbar = () => {
       {/* Hire Me Button */}
       <div>
         <button
-          className="flex justify-center items-center px-[2.5rem] py-[0.75rem] text-[1rem] text-white"
+          className="flex justify-center items-center px-[1.5rem] py-[0.5rem] lg:px-[2.5rem] lg:py-[0.75rem] text-white text-[0.875rem] lg:text-[1rem]"
           style={{
             borderRadius: "0.5rem",
             background: "linear-gradient(94deg, #FD6F00 3.1%, #E46400 94.54%)",
             textAlign: "justify",
             fontFamily: "Lato",
-            fontSize: "1rem",
             fontStyle: "normal",
             fontWeight: "700",
             lineHeight: "normal",
